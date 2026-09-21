@@ -201,6 +201,10 @@ export default function App() {
                     </Pressable>
                   </View>
                 ))}
+                <Text style={styles.textQuantidadeProdutos}>
+                  Total de produtos:{" "}
+                  <span style={styles.spanQtd}>{listaCompras.length}</span>
+                </Text>
               </ScrollView>
             )}
 
@@ -437,4 +441,16 @@ const styles = StyleSheet.create({
     padding: 5,
     color: "rgb(202, 214, 251)",
   },
+
+  textQuantidadeProdutos: {
+    color: "#f2efff",
+    marginBottom: 10,
+    marginTop: 10,
+    fontSize: 15,
+  },
+
+  spanQtd:{
+    color:'rgb(27, 53, 201)',
+    fontWeight:500,
+  }
 });
