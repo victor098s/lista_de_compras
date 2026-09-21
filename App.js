@@ -8,6 +8,7 @@ import {
   ScrollView,
   Image,
   Modal,
+  Alert,
 } from "react-native";
 
 export default function App() {
