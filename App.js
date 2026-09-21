@@ -97,7 +97,6 @@ export default function App() {
 
     setListaCompras((listaAtual) => [...listaAtual, novoObj]);
     setTextoProduto("");
-    Keyboard.dismiss();
   };
 
   return (
